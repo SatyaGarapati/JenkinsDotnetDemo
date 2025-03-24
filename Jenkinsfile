@@ -9,7 +9,7 @@ pipeline {
 	stages {
 		stage('Checkout'){
 			steps{
-				git branch: 'main', 'https://github.com/SatyaGarapati/JenkinsDotnetDemo.git'
+				git branch: 'main',url: 'https://github.com/SatyaGarapati/JenkinsDotnetDemo.git'
 			}
 		}
 		stage('Restore Dependencies'){
