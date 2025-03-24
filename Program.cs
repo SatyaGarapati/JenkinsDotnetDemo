@@ -11,6 +11,7 @@ public class Program
         using (var connection = new SqlConnection(connectionString))
         {
             try
+            
             {
                 connection.Open();
                 Console.WriteLine("Connection successful!");
