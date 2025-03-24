@@ -2,7 +2,7 @@ pipleline {
 	agent any
 	
 	environment{
-		DOTNET_ROOT = "/usr/lib64/dotnet
+		DOTNET_ROOT = "/usr/lib64/dotnet"
 		PATH = "$DOTNET_ROOT:$PATH"
 	}
 	
